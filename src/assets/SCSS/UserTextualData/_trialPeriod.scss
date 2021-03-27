@@ -1,0 +1,84 @@
+@import "../style";
+
+.trial-period-content{
+    background-color: $items-background-color;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+
+    .icon-header{
+        @include setFlexProperties(column, 0, 10px, center, center);
+
+        .days-countdown{
+            @include setFlexProperties(column, 0, 0, center, center);
+            background-color: turquoise;
+            width: 100px;
+            height: 100px;
+            border: 2px solid #ffffff;
+            border-radius: 100%;
+
+            color: $items-background-color;
+            span{
+                @include fontStyle(1.3rem, solid, #fff);
+            }
+        }
+
+        .trial-period-heading{
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+    }
+
+    .hourglass{
+        @include setFlexProperties(column, 0, 0, center, center);
+        i{
+            font-size: 2rem;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .button-row{
+        .upgrade-btn{
+            @include setFlexProperties(column, 0, 0, flex-right, flex-right);
+            padding-bottom: 1rem;
+
+            button{
+                border-radius: 20px 20px 20px 20px;
+            }
+        }
+    }
+}
+
+.online-users{
+    margin-top: 15px;
+    background-color: $items-background-color;
+    .online-users-header{
+        .online-users-header-items{
+            @include userFooterCardStyle;
+
+            i{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .online-users-footer{
+        @include setFlexProperties(row, 9px, 9px, flex-start, center);
+        padding-bottom: 10px;
+
+        .smiley-icon i{
+            font-size: 2.7rem;
+            color: darkgrey;
+        }
+
+        .footer-content{
+            @include setFlexProperties(column, 0, 0, flex-start, flex-start);
+            i{
+                color: $labels-background-color;
+            }
+        }
+    }
+
+    .contact-btn{
+        height: 100%;
+        @include setFlexProperties(column, 0, 0, flex-end, flex-end);
+    }
+}

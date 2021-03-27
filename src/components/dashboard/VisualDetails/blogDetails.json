@@ -1,0 +1,20 @@
+{
+  "blogDetails" : [
+    {
+      "info": "Blended Learning : What it is, Why it matters, and how to apply",
+      "date" : 7
+    },{
+      "info": "Join the courses sales bootcamp [Free live workshops]",
+      "date" : 12
+    },{
+      "info": "12 steps to creative awesome live classes in 2021",
+      "date" : 20
+    },{
+      "info": "Guy kawasaki on the future of bussiness in the midst of pandemic",
+      "date" : 22
+    },{
+      "info": "What is Educational Marketing and How to Use to Grow with examples",
+      "date" : 23
+    }
+  ]
+}

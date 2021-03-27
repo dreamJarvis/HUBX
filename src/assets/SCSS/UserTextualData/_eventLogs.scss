@@ -1,0 +1,30 @@
+@import "../style";
+
+.event-logs{
+    padding: 10px;
+    background-color: $items-background-color;
+    .event-logs-header{
+        .event-logs-header-items{
+            @include userFooterCardStyle;
+
+            i{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .event-logs-footer{
+        .log-data {
+            @include setFlexProperties(row, 9px, 9px, flex-start, flex-start);
+
+            .key-icon i{
+                font-size: 1rem;
+                color: darkgrey;
+            }
+        }
+
+        .footer-content{
+            @include setFlexProperties(column, 0, 0, flex-start, flex-start);
+        }
+    }
+}

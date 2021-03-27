@@ -1,0 +1,30 @@
+@import "../style";
+
+.courses-blog{
+    padding: 10px;
+    background-color: $items-background-color;
+    .courses-blog-header{
+        .courses-blog-header-items{
+            @include userFooterCardStyle;
+
+            i{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .courses-blog-footer{
+        .selling-advices{
+            padding: 10px;
+            .advice-text{
+                @include centerItems(row);
+                column-gap: 10px;
+                line-height: 1rem;
+                color: $labels-background-color;
+                i{
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+}
