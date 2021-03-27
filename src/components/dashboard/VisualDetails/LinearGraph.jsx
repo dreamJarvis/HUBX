@@ -48,7 +48,7 @@ export default class LinearGraph extends PureComponent {
 					<YAxis />
 					<Tooltip />
 					{/*<Legend />*/}
-					<Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
+					<Line type="monotone" dataKey="pv" stroke="#40e0d0" strokeWidth={3} activeDot={{ r: 8 }} />
 				</LineChart>
 			</ResponsiveContainer>
 		);

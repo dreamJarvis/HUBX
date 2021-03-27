@@ -34,9 +34,12 @@ const Dashboard = ()=>{
             </div>
 
             <div className="invite-btn">
-                <a href="#" className="modal-trigger btn btn-large" data-target="userInfoUpdateModal">invite
+                {/*<a href="#" className="modal-trigger btn btn-large" data-target="userInfoUpdateModal">invite*/}
+                {/*    <i className="material-icons right">add</i>*/}
+                {/*</a>*/}
+                <button className="modal-trigger btn btn-large" data-target="userInfoUpdateModal">invite
                     <i className="material-icons right">add</i>
-                </a>
+                </button>
                 <InviteModal/>
             </div>
         </div>
