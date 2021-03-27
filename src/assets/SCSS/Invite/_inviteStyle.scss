@@ -2,14 +2,14 @@
 
 #userInfoUpdateModal{
     width: 40vw;
-    .invite-info{
-        width: 40vw;
-        .invite-pie-chart{
-            height: 200px;
-        }
-    }
 
     .modal-footer {
         @include setFlexProperties(row, 0, 0, center, center);
+    }
+}
+
+.pie-chart-info{
+    .pie-chart{
+        height: 200px;
     }
 }
