@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/HUBX/static/css/main.14e15c8e.chunk.css",
+    "main.js": "/HUBX/static/js/main.b294967a.chunk.js",
+    "main.js.map": "/HUBX/static/js/main.b294967a.chunk.js.map",
+    "runtime-main.js": "/HUBX/static/js/runtime-main.3e4c3d54.js",
+    "runtime-main.js.map": "/HUBX/static/js/runtime-main.3e4c3d54.js.map",
+    "static/css/2.0f7ccd32.chunk.css": "/HUBX/static/css/2.0f7ccd32.chunk.css",
+    "static/js/2.eb874649.chunk.js": "/HUBX/static/js/2.eb874649.chunk.js",
+    "static/js/2.eb874649.chunk.js.map": "/HUBX/static/js/2.eb874649.chunk.js.map",
+    "static/js/3.319c3043.chunk.js": "/HUBX/static/js/3.319c3043.chunk.js",
+    "static/js/3.319c3043.chunk.js.map": "/HUBX/static/js/3.319c3043.chunk.js.map",
+    "index.html": "/HUBX/index.html",
+    "static/css/2.0f7ccd32.chunk.css.map": "/HUBX/static/css/2.0f7ccd32.chunk.css.map",
+    "static/css/main.14e15c8e.chunk.css.map": "/HUBX/static/css/main.14e15c8e.chunk.css.map",
+    "static/js/2.eb874649.chunk.js.LICENSE.txt": "/HUBX/static/js/2.eb874649.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e4c3d54.js",
+    "static/css/2.0f7ccd32.chunk.css",
+    "static/js/2.eb874649.chunk.js",
+    "static/css/main.14e15c8e.chunk.css",
+    "static/js/main.b294967a.chunk.js"
+  ]
+}
